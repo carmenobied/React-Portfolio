@@ -28,7 +28,7 @@ const Navbar = () => {
             <Link to="/contact" className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
               Contact
               </Link>
-              <li className="nav-item">
+              {/* <li className="nav-item">
             <Link to="/projects/list" className="nav-link">
               List Project
             </Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
             <Link to="/projects/create" className="nav-link">
               Create Project
               </Link>
-              </li>
+              </li> */}
         </ul>
       </div>
     </nav>
