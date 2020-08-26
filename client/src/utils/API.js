@@ -19,25 +19,3 @@ const apis = {
 }
 
 export default apis
-
-
-// import axios from "axios";
-
-// export default {
-//   // Gets all projects
-//   getProject: () => {
-//     return axios.get("/api/projects");
-//   },
-//   // Gets the book with the given id
-//   getProject: (id) =>{
-//     return axios.get("/api/projects/" + id);
-//   },
-//   // Deletes the book with the given id
-//   deleteProject: (id) =>{
-//     return axios.delete("/api/projects/" + id);
-//   },
-//   // Saves a book to the database
-//   saveProject: (projectData) =>{
-//     return axios.post("/api/projects", projectData);
-//   }
-// };
